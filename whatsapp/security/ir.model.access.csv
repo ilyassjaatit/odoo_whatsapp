@@ -1,3 +1,11 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 access_whatsapp_whatsapp_all,access.whatsapp.whatsapp.all,model_whatsapp_whatsapp,,0,0,0,0
 access_whatsapp_whatsapp_system,access.whatsapp.whatsapp.system,model_whatsapp_whatsapp,base.group_system,1,1,1,1
+
+access_whatsapp_template_all,access.whatsapp.template.all,model_whatsapp_template,,0,0,0,0
+access_whatsapp_template_user,access.whatsapp.template.user,model_whatsapp_template,base.group_user,1,0,0,0
+access_whatsapp_template_system,access.whatsapp.template.system,model_whatsapp_template,base.group_system,1,1,1,1
+
+access_whatsapp_template_preview,access.whatsapp.template.preview,model_whatsapp_template_preview,base.group_user,1,1,1,0
+
+access_whatsapp_template_reset,access.whatsapp.template.reset,model_whatsapp_template_reset,mail.group_mail_template_editor,1,1,1,1

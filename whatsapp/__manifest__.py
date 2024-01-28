@@ -8,7 +8,12 @@
     "data": [
         "security/ir.model.access.csv",
         "views/whatsapp_whatsapp_views.xml",
+        "wizard/whatsapp_template_reset_views.xml",
+        "wizard/whatsapp_template_preview_views.xml",
+        "wizard/whatsapp_composer_views.xml",
+        "views/whatsapp_template_views.xml",
     ],
+    
     "demo": [],
     "installable": True,
     "auto_install": True,
